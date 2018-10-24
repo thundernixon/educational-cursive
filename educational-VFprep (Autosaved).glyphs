@@ -2280,7 +2280,7 @@ interpolationWeight = 300;
 instanceInterpolations = {
 "AE6371FF-A097-4012-BC67-BE8DDC3006C0" = 1;
 };
-name = Thin;
+name = Light;
 },
 {
 interpolationWeight = 400;
