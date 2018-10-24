@@ -4,7 +4,13 @@ An exploration of cursive letterforms as a teaching tool, based on a conversatio
 
 With the advent of Variable Fonts, this might be an opportune time to add something brand new to the Google Fonts library – an educational font – and to use it to highlight some of the more exciting possibilities of variable fonts.
 
+Obviously, this is just a very early-stage exploration of how this design problem might be approached from a drawing and production standpoint. Properly designing the family would be as much or more about researching the theories behind teaching beginners to write in cursive, plus making styles specific to different countries or regions. Additionally, it would require a fair amount of OpenType scripting to make a properly fluent script typeface. Some of this approach is described in [this GlyphsApp forum thread](https://www.google.com/url?q=https://forum.glyphsapp.com/t/making-an-educational-connected-script-font-opentype-help-and-glyph-setup/9799/14&sa=D&source=hangouts&ust=1540495655640000&usg=AFQjCNGs_dNSf9gLhnsK8QZ4Py2gdk5J0A), including reasons to avoid using ligatures for connected letters.
+
 ## Early tests
+
+I drew in single-line, non-closed paths, making sure that the strokes always ended up at the same point, beyond the right side of the letter, and that the left-side of letters touched that point. I somewhat arbitrarily chose `x: -99, y: 264` as this coordinate. If I were to push this further, I would want to re-evaluate whether to end here or elsewhere, and also whether the exit angle would benefit from being more consistent.
+
+![image-20181024181531894](/Users/stephennixon/Library/Application Support/typora-user-images/image-20181024181531894.png)
 
 ### Starting with the GlyphsApp filters "Offset Curves" & "Round Corners"
 
@@ -17,6 +23,8 @@ OffsetCurve;25;25;1;0.5;
 ```
 
 ...where the `25;25;` describes the thickness.
+
+I found that trying to "round corners" on a hairline-to-bold variable font was nearly impossible, because the point structures were so different with how the rounded terminals would be drawn onto thin and thick strokes. So, for now, I simply used the default Offset Curve, and worked with squared-off paths.
 
 ### Three masters vs two
 
