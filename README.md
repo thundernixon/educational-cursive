@@ -32,12 +32,16 @@ In short: a three-master setup gives more control, but a two-master setup allows
 
 Here's a view of a three-master font. The first and second master share a center path, and can thus expand in place.
 
-![Cursive from three masters](assets/cursive_vf_v1.gif)
+![Cursive from three masters](img/cursive_vf_v1.gif)
 
 Here's the same font, but without the middle master. It provides a much smoother output, though it prevents the possibility of a monolinear font that could work at small-ish sizes.
 
-![Cursive from two masters](assets/cursive_vf_two_masters.gif)
+![Cursive from two masters](img/cursive_vf_two_masters.gif)
 
 It is possible that it's not quite an either-or choice. Instead of offering three masters on a weight axis, this could use Grade or Optical Size as a secondary axis. The font could scale from light to bold for weight, but could use a negative grade to move from the light to a hairline. That would mean three masters, but perhaps a smoother system of scaling. After all, the "hairline" style would be mostly for use at showing the font at a very large size, whereas a slightly-thicker version would likely be the better default style.
 
-![Cursive from two axes](assets/cursive_vf_two_axes.gif)
+![Cursive from two axes](img/cursive_vf_two_axes.gif)
+
+### That's all for now
+
+As stated above, this was simply a quick exploration. Other work beckons, but if anyone finds this useful or would like to use it as a starting point for a new project, great! There's an OFL, so you are welcome to do what you like with the work.
