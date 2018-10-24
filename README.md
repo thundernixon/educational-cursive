@@ -8,6 +8,8 @@ Obviously, this is just a very early-stage exploration of how this design proble
 
 ## Early tests
 
+### Drawing the skeleton
+
 I drew in single-line, non-closed paths, making sure that the strokes always ended up at the same point, beyond the right side of the letter, and that the left-side of letters touched that point. I somewhat arbitrarily chose `x: -99, y: 264` as this coordinate. If I were to push this further, I would want to re-evaluate whether to end here or elsewhere, and also whether the exit angle would benefit from being more consistent.
 
 ![image-20181024181531894](img/cursive-lines.png)
@@ -37,6 +39,8 @@ Here's a view of a three-master font. The first and second master share a center
 Here's the same font, but without the middle master. It provides a much smoother output, though it prevents the possibility of a monolinear font that could work at small-ish sizes.
 
 ![Cursive from two masters](img/cursive_vf_two_masters.gif)
+
+### Three masters and two axes
 
 It is possible that it's not quite an either-or choice. Instead of offering three masters on a weight axis, this could use Grade or Optical Size as a secondary axis. The font could scale from light to bold for weight, but could use a negative grade to move from the light to a hairline. That would mean three masters, but perhaps a smoother system of scaling. After all, the "hairline" style would be mostly for use at showing the font at a very large size, whereas a slightly-thicker version would likely be the better default style.
 
