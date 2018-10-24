@@ -13,16 +13,21 @@ value = (
 {
 Name = Weight;
 Tag = wght;
+},
+{
+Name = "Optical size";
+Tag = opsz;
 }
 );
 }
 );
 date = "2018-10-22 21:33:39 +0000";
-familyName = "Educational Script VF";
+familyName = "Educational Script VF 2axis";
 fontMaster = (
 {
 ascender = 800;
 capHeight = 700;
+custom = Thin;
 customParameters = (
 {
 name = typoAscender;
@@ -54,11 +59,11 @@ value = -200;
 }
 );
 descender = -200;
+iconName = Light;
 id = "AE6371FF-A097-4012-BC67-BE8DDC3006C0";
 italicAngle = 15;
-weight = Light;
 weightValue = 300;
-widthValue = 5;
+widthValue = 36;
 xHeight = 500;
 },
 {
@@ -97,9 +102,9 @@ value = -200;
 descender = -200;
 id = "29E108A8-E52D-434A-8B40-79116307044E";
 italicAngle = 15;
-weight = Bold;
-weightValue = 700;
-widthValue = 5;
+weight = Light;
+weightValue = 300;
+widthValue = 16;
 xHeight = 500;
 },
 {
@@ -141,7 +146,7 @@ iconName = Bold;
 id = "328E5A39-0345-4F8E-8473-26FFCD130792";
 italicAngle = 15;
 weightValue = 900;
-widthValue = 5;
+widthValue = 16;
 xHeight = 500;
 }
 );
@@ -4030,24 +4035,36 @@ unicode = 0020;
 instances = (
 {
 interpolationWeight = 300;
+interpolationWidth = 36;
 instanceInterpolations = {
 "AE6371FF-A097-4012-BC67-BE8DDC3006C0" = 1;
+};
+name = Hairline;
+},
+{
+interpolationWeight = 300;
+interpolationWidth = 16;
+instanceInterpolations = {
+"29E108A8-E52D-434A-8B40-79116307044E" = 1;
 };
 name = Light;
 weightClass = Light;
 },
 {
 interpolationWeight = 400;
+interpolationWidth = 16;
 instanceInterpolations = {
-"29E108A8-E52D-434A-8B40-79116307044E" = 0.25;
-"AE6371FF-A097-4012-BC67-BE8DDC3006C0" = 0.75;
+"29E108A8-E52D-434A-8B40-79116307044E" = 0.83333;
+"328E5A39-0345-4F8E-8473-26FFCD130792" = 0.16667;
 };
 name = Regular;
 },
 {
 interpolationWeight = 700;
+interpolationWidth = 16;
 instanceInterpolations = {
-"29E108A8-E52D-434A-8B40-79116307044E" = 1;
+"29E108A8-E52D-434A-8B40-79116307044E" = 0.33333;
+"328E5A39-0345-4F8E-8473-26FFCD130792" = 0.66667;
 };
 isBold = 1;
 name = Bold;
@@ -4055,6 +4072,7 @@ weightClass = Bold;
 },
 {
 interpolationWeight = 900;
+interpolationWidth = 16;
 instanceInterpolations = {
 "328E5A39-0345-4F8E-8473-26FFCD130792" = 1;
 };

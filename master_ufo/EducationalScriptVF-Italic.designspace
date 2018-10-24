@@ -13,11 +13,11 @@
                 <dimension name="Weight" xvalue="300" />
             </location>
         </source>
-        <!-- <source familyname="Educational Script VF" filename="EducationalScriptVF-BoldItalic.ufo" name="Educational Script VF Bold Italic" stylename="Bold Italic">
+        <source familyname="Educational Script VF" filename="EducationalScriptVF-BoldItalic.ufo" name="Educational Script VF Bold Italic" stylename="Bold Italic">
             <location>
                 <dimension name="Weight" xvalue="700" />
             </location>
-        </source> -->
+        </source>
         <source familyname="Educational Script VF" filename="EducationalScriptVF-BlackItalic.ufo" name="Educational Script VF Black Italic" stylename="Black Italic">
             <location>
                 <dimension name="Weight" xvalue="900" />

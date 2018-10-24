@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='utf-8'?>
+<designspace format="4.0">
+    <axes>
+        <axis default="300" maximum="900" minimum="300" name="Weight" tag="wght" />
+        <axis default="100" maximum="100" minimum="10" name="Grade" tag="GRAD" />
+    </axes>
+    <sources>
+
+        <source familyname="Educational Script VF 2axis" filename="EducationalScriptVF2axis-LightItalic.ufo" name="Educational Script VF 2axis Light Italic" stylename="Light Italic">
+            <lib copy="1" />
+            <groups copy="1" />
+            <features copy="1" />
+            <info copy="1" />
+            <location>
+                <dimension name="Weight" xvalue="300" />
+                <dimension name="Grade" xvalue="100" />
+            </location>
+        </source>
+        <source familyname="Educational Script VF 2axis" filename="EducationalScriptVF2axis-BlackItalic.ufo" name="Educational Script VF 2axis Black Italic" stylename="Black Italic">
+            <location>
+                <dimension name="Weight" xvalue="900" />
+                <dimension name="Grade" xvalue="100" />
+            </location>
+        </source>
+        <source familyname="Educational Script VF 2axis" filename="EducationalScriptVF2axis-ThinItalic.ufo" name="Educational Script VF 2axis Thin Italic" stylename="Thin Italic">
+
+            <location>
+                <dimension name="Weight" xvalue="300" />
+                <dimension name="Grade" xvalue="10" />
+            </location>
+        </source>
+    </sources>
+    <instances>
+        <instance familyname="Educational Script VF 2axis" filename="../instance_ufo/EducationalScriptVF2axis-Hairline.ufo" name="Educational Script VF 2axis Hairline" stylemapfamilyname="Educational Script VF 2axis Hairline" stylemapstylename="regular" stylename="Hairline">
+            <location>
+                <dimension name="Weight" xvalue="300" />
+                <dimension name="Grade" xvalue="10" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Educational Script VF 2axis" filename="../instance_ufo/EducationalScriptVF2axis-Light.ufo" name="Educational Script VF 2axis Light" stylemapfamilyname="Educational Script VF 2axis Light" stylemapstylename="regular" stylename="Light">
+            <location>
+                <dimension name="Weight" xvalue="300" />
+                <dimension name="Grade" xvalue="100" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Educational Script VF 2axis" filename="../instance_ufo/EducationalScriptVF2axis-Regular.ufo" name="Educational Script VF 2axis Regular" stylemapfamilyname="Educational Script VF 2axis" stylemapstylename="regular" stylename="Regular">
+            <location>
+                <dimension name="Weight" xvalue="400" />
+                <dimension name="Grade" xvalue="100" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Educational Script VF 2axis" filename="../instance_ufo/EducationalScriptVF2axis-Bold.ufo" name="Educational Script VF 2axis Bold" stylemapfamilyname="Educational Script VF 2axis" stylemapstylename="bold" stylename="Bold">
+            <location>
+                <dimension name="Weight" xvalue="700" />
+                <dimension name="Grade" xvalue="100" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Educational Script VF 2axis" filename="../instance_ufo/EducationalScriptVF2axis-Black.ufo" name="Educational Script VF 2axis Black" stylemapfamilyname="Educational Script VF 2axis Black" stylemapstylename="regular" stylename="Black">
+            <location>
+                <dimension name="Weight" xvalue="900" />
+                <dimension name="Grade" xvalue="100" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+    </instances>
+</designspace>
