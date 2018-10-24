@@ -32,4 +32,4 @@ Here's the same font, but without the middle master. It provides a much smoother
 
 It is possible that it's not quite an either-or choice. Instead of offering three masters on a weight axis, this could use Grade or Optical Size as a secondary axis. The font could scale from light to bold for weight, but could use a negative grade to move from the light to a hairline. That would mean three masters, but perhaps a smoother system of scaling. After all, the "hairline" style would be mostly for use at showing the font at a very large size, whereas a slightly-thicker version would likely be the better default style.
 
-![Cursive from two axes](assets/cursive_vf_two_masters.gif)
+![Cursive from two axes](assets/cursive_vf_two_axes.gif)
