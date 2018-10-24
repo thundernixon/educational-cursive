@@ -25,7 +25,7 @@ nnsnnoosoo
 newfishtacoburg</string>
       <string>a</string>
       <string>bfs</string>
-      <string>abcefghinorstuw</string>
+      <string>abcnefghin orstuwn</string>
     </array>
     <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
     <false/>
@@ -76,6 +76,7 @@ newfishtacoburg</string>
       <string>t</string>
       <string>u</string>
       <string>w</string>
+      <string>space</string>
     </array>
   </dict>
 </plist>

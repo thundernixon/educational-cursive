@@ -1,9 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <designspace format="4.0">
     <axes>
-        <axis default="400" maximum="400" minimum="400" name="Weight" tag="wght">
-            <map input="400" output="700" />
-        </axis>
+        <axis default="300" maximum="900" minimum="300" name="Weight" tag="wght" />
     </axes>
     <sources>
         <source familyname="Educational Script VF" filename="EducationalScriptVF-LightItalic.ufo" name="Educational Script VF Light Italic" stylename="Light Italic">
@@ -15,14 +13,19 @@
                 <dimension name="Weight" xvalue="300" />
             </location>
         </source>
-        <source familyname="Educational Script VF" filename="EducationalScriptVF-BoldItalic.ufo" name="Educational Script VF Bold Italic" stylename="Bold Italic">
+        <!-- <source familyname="Educational Script VF" filename="EducationalScriptVF-BoldItalic.ufo" name="Educational Script VF Bold Italic" stylename="Bold Italic">
             <location>
                 <dimension name="Weight" xvalue="700" />
+            </location>
+        </source> -->
+        <source familyname="Educational Script VF" filename="EducationalScriptVF-BlackItalic.ufo" name="Educational Script VF Black Italic" stylename="Black Italic">
+            <location>
+                <dimension name="Weight" xvalue="900" />
             </location>
         </source>
     </sources>
     <instances>
-        <instance familyname="Educational Script VF" filename="../instance_ufo/EducationalScriptVF-Thin.ufo" name="Educational Script VF Thin" stylemapfamilyname="Educational Script VF Thin" stylemapstylename="regular" stylename="Thin">
+        <instance familyname="Educational Script VF" filename="../instance_ufo/EducationalScriptVF-Light.ufo" name="Educational Script VF Light" stylemapfamilyname="Educational Script VF Light" stylemapstylename="regular" stylename="Light">
             <location>
                 <dimension name="Weight" xvalue="300" />
             </location>
@@ -36,9 +39,16 @@
             <kerning />
             <info />
         </instance>
-        <instance familyname="Educational Script VF" filename="../instance_ufo/EducationalScriptVF-Bold.ufo" name="Educational Script VF Bold" stylemapfamilyname="Educational Script VF Bold" stylemapstylename="regular" stylename="Bold">
+        <instance familyname="Educational Script VF" filename="../instance_ufo/EducationalScriptVF-Bold.ufo" name="Educational Script VF Bold" stylemapfamilyname="Educational Script VF" stylemapstylename="bold" stylename="Bold">
             <location>
                 <dimension name="Weight" xvalue="700" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="Educational Script VF" filename="../instance_ufo/EducationalScriptVF-Black.ufo" name="Educational Script VF Black" stylemapfamilyname="Educational Script VF Black" stylemapstylename="regular" stylename="Black">
+            <location>
+                <dimension name="Weight" xvalue="900" />
             </location>
             <kerning />
             <info />
