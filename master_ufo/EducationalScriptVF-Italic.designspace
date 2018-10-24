@@ -2,7 +2,7 @@
 <designspace format="4.0">
     <axes>
         <axis default="400" maximum="400" minimum="400" name="Weight" tag="wght">
-            <map input="400" output="600" />
+            <map input="400" output="700" />
         </axis>
     </axes>
     <sources>
@@ -17,7 +17,7 @@
         </source>
         <source familyname="Educational Script VF" filename="EducationalScriptVF-BoldItalic.ufo" name="Educational Script VF Bold Italic" stylename="Bold Italic">
             <location>
-                <dimension name="Weight" xvalue="600" />
+                <dimension name="Weight" xvalue="700" />
             </location>
         </source>
     </sources>
@@ -38,7 +38,7 @@
         </instance>
         <instance familyname="Educational Script VF" filename="../instance_ufo/EducationalScriptVF-Bold.ufo" name="Educational Script VF Bold" stylemapfamilyname="Educational Script VF Bold" stylemapstylename="regular" stylename="Bold">
             <location>
-                <dimension name="Weight" xvalue="600" />
+                <dimension name="Weight" xvalue="700" />
             </location>
             <kerning />
             <info />

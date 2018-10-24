@@ -42,7 +42,7 @@ newfishtacoburg</string>
     <key>com.schriftgestaltung.customParameter.GSFontMaster.iconName</key>
     <string></string>
     <key>com.schriftgestaltung.customParameter.GSFontMaster.weightValue</key>
-    <real>600.0</real>
+    <real>700.0</real>
     <key>com.schriftgestaltung.customParameter.GSFontMaster.widthValue</key>
     <real>5.0</real>
     <key>com.schriftgestaltung.fontMasterOrder</key>
@@ -54,7 +54,7 @@ newfishtacoburg</string>
     <key>com.schriftgestaltung.weight</key>
     <string>Bold</string>
     <key>com.schriftgestaltung.weightValue</key>
-    <real>600.0</real>
+    <real>700.0</real>
     <key>com.schriftgestaltung.width</key>
     <string>Regular</string>
     <key>com.schriftgestaltung.widthValue</key>

@@ -2281,6 +2281,7 @@ instanceInterpolations = {
 "AE6371FF-A097-4012-BC67-BE8DDC3006C0" = 1;
 };
 name = Light;
+weightClass = Light;
 },
 {
 interpolationWeight = 400;
@@ -2296,6 +2297,7 @@ instanceInterpolations = {
 "29E108A8-E52D-434A-8B40-79116307044E" = 1;
 };
 name = Bold;
+weightClass = Bold;
 }
 );
 unitsPerEm = 1000;
