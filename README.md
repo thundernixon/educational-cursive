@@ -28,6 +28,25 @@ OffsetCurve;25;25;1;0.5;
 
 I found that trying to "round corners" on a hairline-to-bold variable font was nearly impossible, because the point structures were so different with how the rounded terminals would be drawn onto thin and thick strokes. So, for now, I simply used the default Offset Curve, and worked with squared-off paths.
 
+### Moving to outlines
+
+In order to make compatible masters to export to a variable font, I needed to convert the auto-offset curves into outlines, and make sure that the point structures were compatible. Especially because I was testing a wide weight range, the auto-outlined paths had markedly different point structures.
+
+When Glyphs exported the outlines, I had exported it to TTF. This made quadratic bezier curves. In hindsight, I could have simply exported OpenType fonts or UFO instances. However, when I added the exported Light and Bold TTFs into a single Glyphs file, I used a script to convert paths to Cubic beziers, for simpler editing:
+
+```
+font = Glyphs.font
+
+for glyph in Glyphs.font.glyphs:
+	for layer in glyph.layers:
+		for path in layer.paths:
+			help(path)
+			path.convertToCubic()
+# 			break # these "break" statements allowed me to test on just a single loop before running on every object
+# 		break
+# 	break
+```
+
 ### Three masters vs two
 
 In short: a three-master setup gives more control, but a two-master setup allows for smoother interpolation.
