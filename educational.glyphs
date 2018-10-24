@@ -1,7 +1,7 @@
 {
 .appVersion = "1172";
 DisplayStrings = (
-"newfnnn\012nnnwnn\012nnenn\012nnfnn\012hnntnn\012nninn\012nnsnnoosoo\012newfishtacoburgh"
+"a b c\012abcnb\012newfnnn\012nnnwnn\012nnenn\012nnfnn\012hnntnn\012nninn\012nnsnnoosoo\012newfishtacoburgh"
 );
 date = "2018-10-22 21:33:39 +0000";
 familyName = "Educational Script Square";
@@ -44,10 +44,6 @@ descender = -200;
 guideLines = (
 {
 position = "{746, 261}";
-},
-{
-angle = 180;
-position = "{471, 514}";
 }
 );
 id = "AEED6228-2688-418C-8E3E-603855293E58";
@@ -524,7 +520,7 @@ unicode = 0061;
 },
 {
 glyphname = b;
-lastChange = "2018-10-24 18:16:35 +0000";
+lastChange = "2018-10-24 22:13:59 +0000";
 layers = (
 {
 layerId = "D1F42CF4-A27D-4BD6-B476-B255C1646F69";
