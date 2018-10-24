@@ -10,7 +10,7 @@ Obviously, this is just a very early-stage exploration of how this design proble
 
 I drew in single-line, non-closed paths, making sure that the strokes always ended up at the same point, beyond the right side of the letter, and that the left-side of letters touched that point. I somewhat arbitrarily chose `x: -99, y: 264` as this coordinate. If I were to push this further, I would want to re-evaluate whether to end here or elsewhere, and also whether the exit angle would benefit from being more consistent.
 
-![image-20181024181531894](/Users/stephennixon/Library/Application Support/typora-user-images/image-20181024181531894.png)
+![image-20181024181531894](img/cursive-lines.png)
 
 ### Starting with the GlyphsApp filters "Offset Curves" & "Round Corners"
 
